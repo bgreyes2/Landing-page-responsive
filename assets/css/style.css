@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Raleway-SemiBold ;
+    src: url('../fonts/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: ChancesSolid ;
+    src: url('../fonts/KGSecondChancesSolid.ttf');
+}
+
+/* General */
+
+.font-body {
+    font-family: Raleway-SemiBold;
+}
+
+.font-title {
+    font-family: ChancesSolid;
+}
+
+.title-primary {
+    font-family: ChancesSolid;
+    font-size: 1.5rem;
+    box-sizing: border-box ;
+    margin: 1rem 0;
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    border-radius: 10rem;
+}
+
+.title-primary--green {
+    background-color: rgb(187, 211, 51);
+    color: purple;
+}
+.title-primary--purple{
+    
+    background-color: rgb(199, 28, 94);
+    color: white;
+}
+
+/* End General */
+
+/* Header */
+.header {
+    background-color: rgb(97, 219, 199);
+}
+
+.header__image {
+    width: 13%;
+}
+
+/* End Header */
+
+
+/* Banner */
+.banner {
+    background-color: purple;
+}
+
+.banner__image {
+    width: 100%;
+}
+
+/* End Banner */
+
+/* Sub Banner */
+
+.sub-banner {
+    padding: 0 7.5rem;
+    color: white;
+    background-color: rgb(84, 35, 88);
+}
+
+.sub-banner__text {
+    text-align: center;
+}
+
+.sub-banner__image{
+    width: 23%;
+}
+
+/* End Sub Banner */
+
+
+/* Container-first*/
+.container-first{
+
+    background-color:rgb(233, 225, 225); 
+  
+}
+/* End container-first*/
+
+
+/* Container-second*/
+.container-second{
+
+    height: 20rem;
+    background-color: rgb(37, 172, 182);
+  
+}
+/* End container-second*/
+
+/*Image container second*/
+.idea__image{
+    width: 70%;
+
+}
+/* End image container*/
+
+
+/* Container-third*/
+.container-third{
+
+    height: 35rem;
+    background-color:rgb(182, 39, 98);
+
+}
+
+/* End container-third*/
+
+/* Container-four*/
+.container-four{
+
+    background-color:rgb(255, 190, 51);
+    height: 40rem;
+}
+/* End container-four*/
+
+/*Color and fonts*/
+.text-classroom{
+
+    color: white;
+    position:absolute;
+}
+.text-paragraph{
+
+    color: white;
+}
+.text-title{
+
+    color: white;
+}
+
+/*End color and fonts*/
+.images__button{
+    width: 70% !important ;
+}
+/*Container-five*/
+.container-five{
+
+    background: rgb(145, 221, 226);
+    height: 40rem;
+}
+
+/*End contairner-five*/
+
+/*Slide*/
+.slide{
+    
+    width: 80%;
+
+}
+
+/*End Slide*/
+
+/* Mediaquery */
+
+
+@media screen and (max-width: 768px) {
+
+    .header__image {
+        width: 30%;
+    }
+
+    .sub-banner__image{
+        width: 50%;
+        margin: 0 !important;
+    }
+
+    .container-second{
+
+        height: 42rem;
+      
+    }
+    .container-third{
+
+        height: 100rem;
+       
+    
+    }
+    .container-five{
+
+        height: 30rem;
+    }
+    
+    .idea__image{
+        width: 70%;
+        margin-right: 15%;
+    }
+    
+    .title-primary--purple{
+    
+        font-size:100%;
+    }
+    .text-classroom{
+
+        position:relative;
+    }
+
+   .slide{
+
+        width: 120%;
+
+    }
+    .container-four{
+
+        height: 30rem;
+    }
+    .images-flex{
+        
+        display:contents;
+        width: 10%;
+    
+    }
+    .images__button{
+
+        width: 100% !important;
+      
+    }
+    
+    .text-title{
+       margin: 30% 0;
+    
+    }
+ 
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .sub-banner {
+        padding: 0 1rem ;
+    }
+
+}
